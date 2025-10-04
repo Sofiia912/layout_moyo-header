@@ -45,19 +45,16 @@ body {
 }
 
 .nav__link {
-  display: block;
   height: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #000;
   font-size: 12px;
-  justify-content: center;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0;
   text-align: center;
-  position: relative;
   transition: color 0.3s ease;
+  display: block;
 }
 
 .nav__link:hover {
@@ -66,6 +63,7 @@ body {
 
 .nav__link.is-active {
   color: var(--blue);
+  position: relative;
 }
 
 .nav__link.is-active::after {
